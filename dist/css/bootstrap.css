@@ -1615,6 +1615,13 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.container-fluid-limited {
+  max-width: 1600px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .row {
   margin-right: -15px;
   margin-left: -15px;
@@ -6635,6 +6642,8 @@ button.close {
 .container:after,
 .container-fluid:before,
 .container-fluid:after,
+.container-fluid-limited:before,
+.container-fluid-limited:after,
 .row:before,
 .row:after,
 .form-horizontal .form-group:before,
@@ -6664,6 +6673,7 @@ button.close {
 .dl-horizontal dd:after,
 .container:after,
 .container-fluid:after,
+.container-fluid-limited:after,
 .row:after,
 .form-horizontal .form-group:after,
 .btn-toolbar:after,
